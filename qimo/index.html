@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QimoWork</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400;900&family=Poppins&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fa79f509a7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="header">
+    <nav>   <!--导航-->
+      <h2>QingmingDusky<span>个人兴趣网站</span></h2>
+      <div id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <a href="#">首页</a>
+        <a href="#universe">宇宙</a>
+        <a href="#aerospace">航空航天</a>
+        <a href="#animation">动漫</a>        
+        <a href="#testimonials">想法</a>
+        <a href="#report">结业报告</a>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      
+      <h1>&nbsp;宇宙级浪漫&nbsp;</h1>
+      <p>要一起吗，去承载你我的宇宙<br>
+        To the universe.<br>
+        </p>
+      <a href="#universe" class="hero-btn">了解更多</a>
+    </div>
+  </section>
+
+  <section id="universe">
+    <h1>universe</h1>
+    <p>沙粒之中可窥出宇宙</p>
+    <div class="row">
+      <div class="col">
+        <h3>寥廓的空宇</h3>
+        <p>它们都处于同一平面。它们都在沿同一方向转动......你要知道，这真是完美无缺的，这真是不可思议的，这几乎是很神奇的。</p>
+      </div>
+      <div class="col">
+        <h3>一个新时代的黎明</h3>
+        <p>物理学家就是以原子的方式来考虑原子的人。</p>
+      </div>
+      <div class="col">
+        <h3>生命本身</h3>
+        <p>我越是审视宇宙，越是研究其构造上的具体细节，就越是觉得在某种意义上宇宙肯定知道我们快要到来。</p>
+      </div>
+      <div class="col">
+        <h3>三体</h3>
+        <p>大多数人，到死都没向尘世之外瞥一眼</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="aerospace">
+    <h1>航空航天</h1>
+    <p></p>
+    <div class="row">
+      <div class="col">
+        <img src="./images/aerospace-1.webp" alt="US">
+        <div class="layer">
+          <h3>毅力号</h3>
+        </div>
+        <h4>在火星开车</h4>
+      </div>
+      
+      <div class="col">
+        <img src="./images/aerospace-2.webp" alt="China">
+        <div class="layer">
+          <h3>神舟十三</h3>
+        </div>
+        <h4>载人飞船</h4>
+      </div>
+      <div class="col">
+        <img src="./images/aerospace-3.webp" alt="China">
+        <div class="layer">
+          <h3>天问一号</h3>
+        </div>
+        <h4>环绕火星、着陆火星</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="animation">
+    <h1>我喜欢的动漫</h1>
+    <p>想当漫画家</p>
+    <div class="row">
+      <div class="col">
+        <img src="./images/animation-1.webp" alt="library" onclick="showFullImage(event)">
+        <h3>百变小樱<a href="https://v.qq.com/x/cover/wplx79f0v0dlop3/j0026klh74j.html">播放第一集</a></h3>
+        
+        <p>为了回收散布各处的库洛牌，小樱成为了魔卡捕获者，不断努力，她的身边有很好的亲人、很好的朋友。</p>
+      </div>
+      <div class="col">
+        <img src="./images/animation-2.webp" alt="basketball" onclick="showFullImage(event)">
+        <h3>火影忍者<a href="https://v.youku.com/v_show/id_XNTQwMTgxMTE2.html?spm=a2h0c.8166622.PhoneSokuThreeProgram_1.dposter_1&s=cc001f06962411de83b1">播放第一集</a></h3>
+        <p>鸣人身体里封印着破坏村子的九尾，但他始终保持乐观并下定决心成为火影，在不断成长中获得了大家的认可。</p>
+      </div>
+      <div class="col">
+        <img src="images/animation-3.webp" alt="cafeteria" onclick="showFullImage(event)">
+        <h3>银魂<a href="https://www.bilibili.com/bangumi/play/ss38157?spm_id_from=333.337.0.0">播放第一集</a></h3>
+        <p>天人横行霸道，夺走武士的刀，在这样的时代，有一个武士与同伴时而战斗，即使胜利也同样会过回自己普通的生活。</p>
+      </div>
+      <div class="col">
+        <img src="images/animation-4.webp" alt="cafeteria" onclick="showFullImage(event)">
+        <h3>冰雪奇缘<a href="https://v.qq.com/x/cover/bv8m91i5jj1w1ww/k0014rpm1vd.html">播放</a></h3>
+        <p>姐姐艾莎隐藏自己有冰雪魔法的秘密，但还是被发现，逃离了国家建立了自己的冰雪王国，妹妹安娜不惧困难寻找姐姐。</p>
+      </div>
+      <div class="col">
+        <img src="images/animation-5.webp" alt="cafeteria" onclick="showFullImage(event)">
+        <h3>大鱼海棠<a href="https://v.qq.com/x/cover/we35g3aduiwkudp/u0021lcrkp2.html">播放</a></h3>
+        <p>所有活着的人类，都是海里一条巨大的鱼；出生的时候他们从海的此岸出发。他们的生命就像横越大海，有时相遇，有时分开......死的时候，他们便到了岸，各去各的世界。</p>
+      </div>
+      <div class="col">
+        <img src="images/animation-6.webp" alt="cafeteria" onclick="showFullImage(event)">
+        <h3>千与千寻<a href="">暂无播放源</a></h3>
+        <p>人类少女误闯神灵世界，开启奇幻冒险之旅。</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="popup">
+    <img id="fullImage" src="">
+  </div>
+
+  <section id="testimonials">
+    <h1>我的想法</h1>
+    <p>每个人都有自己喜爱的事和物，<br>我喜欢星辰大海，<br>喜欢宇宙神秘，<br>我也喜欢来自生活的灵感与美丽，<br>愿我们的征途既有璀璨也有陪伴。</p>
+
+  </section>
+
+  <section id="report">
+    <h1>《WEB应用基础》结业报告</h1>
+    <h4>主题：本次大作业主题为我的个人爱好，我将自己喜欢的事物放到了这个网站中。</h4>
+    <h4>开发过程：整个页面框架是以老师课上举例所讲过的"cqjtu"为基础，<br>再根据自己的主题与所需进行排版、颜色搭配、内容管理等设计。</h4>
+    <h4>遇到的问题：设计时得注意排版要美观，背景色与字体色要搭配好，避免看不清或分不清主次，<br>有时会遇到文字排版无法达到预期的情况。</h4>
+    <h4>解决：通过不断调整与上网搜索可以解决以上问题。</h4>
+    <h4>总结：1、我对html及css中的代码内容、标签、属性、内容、用法等都更加了解了，并且运用也更加熟练；<br>
+        2、能够熟练地按照自己的构想进行布局，对网站响应式布局有了清晰的认识和了解；<br>
+        3、通过设计网站也提升了我个人的设计能力，也考验了自己的耐心和细致程度；<br>
+        4、对网站页面设计流程已有清晰认知；<br>
+        5、现在，我已经体会到了设计网站的乐趣，我会不断努力，提升自己，提升自己网站设计的水平。<br>
+          以上就是我对此次网站设计的全部总结。</h4>
+    <h6>此页面背景为“东方红一号”卫星</h6>
+    <a href="" class="hero-btn">回到顶部</a>
+  </section>
+ 
+  <script>
+    var navLinks = document.getElementById('navLinks');
+       
+    function showMenu() {
+      navLinks.style.right = '0';
+      navLinks.addEventListener('click',function(){           //在弹出导航条任何地方点击都可以隐藏
+        hideMenu();
+      })
+      
+    }
+    function hideMenu() {
+      navLinks.style.right = '-30%';
+    }
+
+    function showFullImage(event) {
+      // 设置要全屏显示的图片src
+      document.getElementById('fullImage').src = event.target.src;
+      // 得到Y滚动条宽度
+      // innerWidth是以像素为单位的窗口的内部宽度。如果垂直滚动条存在，则这个属性将包括它的宽度
+      // offsetWidth 是一个只读属性，返回一个元素的布局宽度
+      var scrollbarWidth = window.innerWidth - document.body.offsetWidth;
+      // body不能滚动      
+      document.body.style.overflowY = 'hidden';
+      // 防止页面在隐藏滚动条时闪动      
+      document.body.style.marginRight = scrollbarWidth + 'px';
+
+      var popup = document.getElementById('popup');
+      popup.style.display = 'flex';
+      popup.style.animation = 'fadein 0.5s';
+      popup.onclick = function () {
+        popup.style.animation = 'fadeout 0.6s';
+        // 延时将display置为none，以让有时间动画。注意设置隐退的时间多一点会更平滑。
+        setTimeout(() => {
+          document.body.style.overflowY = 'auto';// body恢复滚动
+          document.body.style.marginRight = 0;          
+          popup.style.display = 'none';
+        }, 500);
+      }
+    }
+  </script>
+</body>
+
+</html>
